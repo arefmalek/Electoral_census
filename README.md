@@ -4,10 +4,9 @@ Berkeley DSS Datathon Project
 ## Project Description
 
 ### Intro
+We've all heard the concept that the Electoral college and have heard the stats about other stats (pictures below) but this weekend we wanted to explore who is really benefitting from this that was designed "for the people". 
 ![density plot](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Electoral_capita.png)
 ![Electoral College per Capita plot](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Density.png)
-
-We've all heard the concept that the Electoral college and have heard the stats about other stats (pictures above) but this weekend we wanted to explore who is really benefitting from this that was designed "for the people".
 
 ### Methodology
 I'll spare the charts for now, but our tactic was to essentially get the proportion of an electoral vote that a person represents in each state.
@@ -19,8 +18,7 @@ Finally, we take the sum of all the rows to find the total number of electoral v
 ### Results
 Honestly, they are pretty damning. We tried to match demographics like race, gender, and age and we see that the electoral college has some pretty heavy favorites
 
-![race chart](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Electoral_capita.png)
-![poverty](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Density.png)
+![Disparities](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Disparities.PNG)
 
 ### Impact
 
