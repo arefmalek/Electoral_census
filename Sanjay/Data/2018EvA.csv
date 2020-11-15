@@ -1,0 +1,27 @@
+Demographic,Expected,Actual
+Citizens 18 years and over,538.0,538.0
+        18 to 29 years,114.48979746596342,112.8325321381604
+        30 to 44 years,127.4474482866675,126.54106612378608
+        45 to 64 years,179.16713032687218,178.919463695523
+        65 years and over,116.89562392049692,119.70693804253051
+        Male,260.8819596732995,261.8682905529434
+        Female,277.1180403267005,276.1317094470566
+White,767.7096773979065,776.8679795688943
+        Black or African American alone,68.75612360849689,65.35016960383867
+        Asian alone,23.65099586436653,26.14822937028193
+Some Other Race alone,18.88454490530615,15.54450547694724
+        Two or More Races,13.20602117043298,17.105040530822226
+        Hispanic or Latino,73.72085799420559,54.0822592750802
+        Less than 9th grade,16.997398238723505,15.902472144155634
+"        9th to 12th grade, no diploma",36.48839979190314,35.19373529477443
+        High school graduate (includes equivalency),149.6691452313101,158.6111464068993
+"        Some college, no degree",125.16311958827609,123.0460889066277
+        Associate's degree,46.116768301347925,46.75865586300898
+        Bachelor's degree,103.55652141038267,100.00563664643155
+        Graduate or professional degree,60.00864743805656,58.482264738102444
+        High school degree or higher,484.51420196937335,486.90379256107
+        Bachelor's degree or higher,163.5651688484392,158.48790138453396
+"        Total Citizens, 18 years and older, for whom poverty status is determined",523.2579259320413,522.075528896243
+        Income in the past 12 months below poverty level,59.7198051775475,61.22025161739262
+        Income in the past 12 months at or above the poverty level,463.5381207544938,460.85527727885034
+"        Median Household Income for Households with a Citizen, Voting-Age Householder",7.346473183834622,18.908317560089284
