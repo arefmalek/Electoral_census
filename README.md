@@ -22,7 +22,7 @@ Honestly, they are pretty damning. We tried to match demographics like race, gen
 
 ### Impact
 
-The value of votes is not only tied to population density 
+The value of votes is not only tied to population density, as the initial graphs may suggest
 Low density vs. high density -> voter disenfranchisement
 
 The electoral college is just a modern version of the original "white, landowning males" that we heard of at the country's origin. The times may be different, but the spirit seems to be the same.
