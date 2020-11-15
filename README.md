@@ -4,8 +4,8 @@ Berkeley DSS Datathon Project
 ## Project Description
 
 ### Intro
-![density plot](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Electoral_capita.png = 1000x500)
-![Electoral College per Capita plot](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Density.png = 1000x500)
+![density plot](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Electoral_capita.png)
+![Electoral College per Capita plot](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Density.png)
 
 We've all heard the concept that the Electoral college and have heard the stats about other stats (pictures above) but this weekend we wanted to explore who is really benefitting from this that was designed "for the people".
 
