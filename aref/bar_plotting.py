@@ -78,7 +78,7 @@ plt.legend(
     [black, asian, latino, islander, native, white, filler, ecv], 
     ["Black", "Asian", "Latino", "Islander", "Native", "White", "Other", "Electoral Votes"] )
 plt.yticks(np.arange(0, 101, 10), range(0, 105, 10)) 
-plt.xticks(race["State"], rotation=90)
+plt.xticks(race["State"], rotation=90, fontsize=6.5)
 
 
 plt.show()
