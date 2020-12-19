@@ -1,5 +1,5 @@
 # Electoral_census
-Berkeley DSS Datathon Project
+Big shoutout to UC Berkeley Datathon picking this as the second winner! 
 
 ## Project Description
 
