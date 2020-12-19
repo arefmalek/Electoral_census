@@ -5,6 +5,7 @@ Big shoutout to UC Berkeley Datathon picking this as the second winner!
 
 ### Intro
 We've all heard the concept that the Electoral college may be biased towards certain people. You might have even heard the statistic about Wyoming votes per Capita are the most valuable (which is very true, if you look at the graphs below), but you never really hear about how the American people may be inherently preferred by the sytem. This weekend, we started to dig deep into who the electoral college prefers, and the results are . . . surprising. 
+
 ![Electoral College per Capita plot](https://github.com/arefmalek/Electoral_census/blob/main/geoplots/images/Electoral_capita.png)
 ![density plot](https://github.com/arefmalek/Electoral_census/blob/main/geoplots/images/Density.png)
 
