@@ -5,8 +5,8 @@ Big shoutout to UC Berkeley Datathon picking this as the second winner!
 
 ### Intro
 We've all heard the concept that the Electoral college may be biased towards certain people. You might have even heard the statistic about Wyoming votes per Capita are the most valuable (which is very true, if you look at the graphs below), but you never really hear about how the American people may be inherently preferred by the sytem. This weekend, we started to dig deep into who the electoral college prefers, and the results are . . . surprising. 
-![density plot](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Electoral_capita.png)
-![Electoral College per Capita plot](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Density.png)
+![density plot](https://github.com/arefmalek/Electoral_census/blob/main/geoplots/images/electoral_v1.png)
+![Electoral College per Capita plot](https://github.com/arefmalek/Electoral_census/blob/main/geoplots/images/Electoral_capita.png)
 
 ### Methodology
 I'll spare the charts for now, but our tactic was to essentially get the proportion of an electoral vote that a person represents in each state.
@@ -18,7 +18,7 @@ Finally, we take the sum of all the rows to find the total number of electoral v
 ### Results
 Honestly, they are pretty damning. We tried to match demographics like race and income and we see that the electoral college has some pretty heavy favorites. We can see that the differential in Electoral College values for White voters outweighs other demographics. We also see that those above the poverty line tend to have the vote count more in the electoral college than those who are below the poverty line.
 
-![Disparities](https://github.com/arefmalek/Electoral_census/blob/main/aref/images/Disparities.PNG)
+![Disparities](https://github.com/arefmalek/Electoral_census/blob/main/geoplots/images/Disparities.PNG)
 
 ### Impact
 
