@@ -10,6 +10,13 @@ def p2f(s):
     except ValueError:
         return 0
 
+def alphabetize(dataframe):
+    cols = dataframe.columns.tolist()
+    cols = sorted(cols)
+    cols.remove("Label")
+    cols.insert(0, "Label")
+    return dataframe[cols]
+
 def processor(filename):
     data = pd.read_csv(filename)
 
@@ -28,6 +35,8 @@ def processor(filename):
 
     # Renaming columns
     data.columns = (data.columns.str.replace("!!Total!!Estimate", ""))
+
+    data = alphabetize(data)
 
     #removing as many 0 values as I can easily
     data = data[data["Alabama"] > 0]   
@@ -70,14 +79,20 @@ def processor(filename):
     })
     return eva
 
-files = ["Data\\{}_full.csv".format(number) for number in range(2017,2020)]
-eva = [processor(filename) for filename in files]
+def comparison(start, end, data, title):
+    ax = sns.barplot(x=data.Label[start:end], y=data.Delta[start:end])
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=90)
+    ax.set_xlabel(title)
+    return ax
 
-for i in range(7,13):
-    sns.
+def race(data):
+    return comparison(7, 13, data, "Race")
 
+def gender(data):
+    return comparison(5,7,data, "Sex")
 
-ax = sns.barplot(x=eva[1].Label[7:13], y=eva[1].Delta[7:13])
-ax.set_xticklabels(ax.get_xticklabels(), rotation=70)
-ax.set_xlabel("Race")
-plt.show()
+def poverty(data):
+    return comparison(24,26,data,"Poverty Line")
+
+def education(data):
+    return comparison(14,23,data,"Education Level")
