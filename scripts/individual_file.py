@@ -22,7 +22,7 @@ def processor(filename):
 
     for column in data.columns:
         if column == "Label": continue
-        if "!!Total!!Estimate" not in column:
+        if "Estimate" not in column:
             data = data.drop(column, axis=1)
     
     data = data.dropna()
@@ -34,7 +34,7 @@ def processor(filename):
         data[data.columns[i]] = col
 
     # Renaming columns
-    data.columns = (data.columns.str.replace("!!Total!!Estimate", ""))
+    data.columns = (data.columns.str.replace("!!Estimate", ""))
 
     data = alphabetize(data)
 
