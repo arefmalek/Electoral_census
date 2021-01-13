@@ -58,7 +58,7 @@ def processor(filename):
         col = data.iloc[:, i] / total_pop[i]
         data[data.columns[i]] = col
 
-    electorals = pd.read_csv("Data\state_data")
+    electorals = pd.read_csv("Data/state_data")
     diaspora = electorals["E.C. Votes"] 
 
     for i in range(1, len(data.columns)):
@@ -77,22 +77,13 @@ def processor(filename):
     "Label": data.Label,
     "Delta": data.Actual - data.Expected
     })
-    return eva
 
-def comparison(start, end, data, title):
-    ax = sns.barplot(x=data.Label[start:end], y=data.Delta[start:end])
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=90)
-    ax.set_xlabel(title)
-    return ax
+    eva.index = data.Label.str.strip()
 
-def race(data):
-    return comparison(7, 13, data, "Race")
+    #isolating data I want
+    race = eva.loc["White alone":"Asian alone"].append(eva.loc["Hispanic or Latino (of any race)"])
+    gender = eva.iloc[1:3]
+    age = eva.loc["15 to 19 years": "75 to 84 years"]
 
-def gender(data):
-    return comparison(5,7,data, "Sex")
-
-def poverty(data):
-    return comparison(24,26,data,"Poverty Line")
-
-def education(data):
-    return comparison(14,23,data,"Education Level")
+    final  = race.append(age).append(gender)
+    return final
